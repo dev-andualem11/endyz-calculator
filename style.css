@@ -1,0 +1,153 @@
+
+
+
+body {
+margin: 0px;
+padding: 0;
+background-color:rgb(228, 234, 236) ;
+
+
+
+
+
+
+}
+
+header{
+
+background-color: rgb(60, 156, 77);
+font-family: Arial, Helvetica, sans-serif;
+padding: 0.01ch;
+
+
+
+}
+
+nav ul{
+display: flex;
+justify-content: center;
+list-style-type:none;
+gap: 40px;
+
+}
+
+nav a {
+
+
+
+
+    text-decoration: none;
+    transition: background 0.2s  ,transform 0.5s ;
+    
+}
+
+
+
+a {
+
+color: rgb(238, 242, 247);
+font-weight: 900;
+
+
+
+}
+
+section{
+
+
+    display: flex;
+    padding: 20px;
+    gap:9rem;
+    justify-content:left;
+    color: rgb(66, 55, 55);
+    background-color: rgb(245, 234, 234);
+     align-items: center;
+     flex-direction: row;
+}
+@media(max-width:768px){
+
+section {
+
+flex-direction:column;
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+section img{
+
+width: 300px;
+object-fit: cover;
+border-radius: 1000px;
+
+
+}
+
+.name {
+
+
+text-align: center;
+
+
+}
+
+
+nav a:hover {
+
+color: brown;
+
+
+
+}
+
+nav a:active {
+
+transform: scale(0.97);
+
+
+
+}
+
+
+footer{
+
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: smaller;
+background-color: rgb(253, 249, 249);
+margin-top: 10px;
+margin-bottom: 0px;
+padding: 10px;
+padding-bottom: 10px;
+color: rgb(128, 84, 84);
+box-shadow: 1 2px 2px rgb(143, 119, 119);
+}
+
+button{
+
+width: 150px;
+height: 50px;
+border-radius: 19px;
+background-color: rgb(34, 152, 83);
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;
+font-size: large;
+font-weight: 700;
+}
+.vertical-line {
+  border-left: 2px solid rgb(148, 35, 35); /* Line thickness, style, and color */
+  height: 150px;                /* Length of the line */
+         /* Keeps content flowing horizontally if needed */
+                /* Spacing on the left and right */
+}

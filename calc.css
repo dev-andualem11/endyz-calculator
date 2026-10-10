@@ -1,0 +1,168 @@
+*{
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+
+header {
+
+text-align: center;
+margin: 30px;
+padding-bottom: 10px;
+background-color: rgb(116, 205, 157);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 150px;
+
+}
+
+header a {
+
+    text-align: right;
+    padding-left:500px ;
+    text-decoration: none;
+    color: rgb(45, 119, 146);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: large;
+}
+
+}
+
+body {
+
+background-color: rgb(224, 231, 237);
+
+justify-content: center;
+align-items: center;
+padding: 1rem;
+min-height: 100vh;
+
+
+
+}
+
+
+
+
+.buttons {
+display: grid;
+justify-content: space-around;
+grid-template-columns: repeat(3,1fr);
+gap:5px;
+max-width: 100%;
+width: 100%;
+height: 200px;
+padding-top: 20px;
+background-color: rgb(206, 211, 211);
+
+
+
+}
+
+.screen {
+
+background-color: rgb(144, 136, 138);
+width:100%;
+height: 40px;
+text-align: right;
+font-weight: 700;
+font-size: 30px;
+overflow: hidden;
+
+
+
+}
+.calculator {
+
+
+border: 2px solid rgba(78, 8, 8, 0.034);
+margin: 20px;
+padding: 20px;
+border-radius: 25px;
+box-shadow: 0 4px 8px rgb(11, 39, 105);
+height: 380px;
+
+}
+.buttons button{
+background-color: rgb(186, 174, 175);
+border-radius: 25px;
+padding : 5px;
+text-align: center;
+width: 65px;
+margin:0px;
+color: rgba(11, 154, 87, 0.838);
+font-weight: 800;
+transition: background 0.15s, transform 0.1s;
+
+}
+
+.buttons button:hover{
+
+background-color: rgb(65, 161, 97);
+
+}
+.buttons button:active{
+
+transform: scale(0.5);
+
+}
+
+section {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.next  {
+
+width: 190px;
+height: 50px;
+border-radius: 19px;
+background-color: rgb(30, 149, 93);
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;
+font-size: large;
+font-weight: 700;
+}
+
+.next a {
+
+text-decoration: none;
+color: aliceblue;
+
+}
+
+
+
+
+.vertical-line {
+  border-left: 2px solid rgb(148, 35, 35); /* Line thickness, style, and color */
+  height: 300px;                /* Length of the line */
+         /* Keeps content flowing horizontally if needed */
+                /* Spacing on the left and right */
+}
+
+footer p{
+
+
+
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(221, 221, 205);
+    color: rgb(181, 73, 73);
+}
+.result {
+background-color: rgb(149, 137, 137);
+border-color: blue;
+padding: 12px;
+border: 1px solid rgb(164, 100, 100);
+
+
+
+}
